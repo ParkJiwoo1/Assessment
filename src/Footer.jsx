@@ -13,13 +13,12 @@ function Footer() {
 
   return (
     <div>
-      {data.length > 0 ? (
-        <div className="footer-call">{data.length}</div>
-      ) : (
-        <div />
-      )}
-
       <div className="footer-container">
+        {data.length > 0 ? (
+          <div className="footer-call">{data.length}</div>
+        ) : (
+          <div />
+        )}
         <Call />
         <PersonOutline />
         <div className="circle-big">
