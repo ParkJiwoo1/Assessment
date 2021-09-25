@@ -5,7 +5,6 @@ import { userContext } from "./Context.jsx";
 function Lists() {
   const test = useContext(userContext);
   const checks = test.check;
-  console.log(test);
   return (
     <div>
       {checks &&

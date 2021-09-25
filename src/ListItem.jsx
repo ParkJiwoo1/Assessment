@@ -10,9 +10,6 @@ function ListItem({ list }) {
     setDetail(list);
   };
   let jsonstring = list.created_at;
-  console.log(
-    new Date(jsonstring).toLocaleTimeString("en-US", { hours: false })
-  );
   const newDate = new Date(jsonstring).toLocaleDateString("en-US", {
     hours: false,
   });
@@ -28,8 +25,8 @@ function ListItem({ list }) {
             <PhoneCallbackOutlined
               style={{
                 color: "gray",
-                marginLeft: "10px",
-                marginRight: "15px",
+                marginLeft: "5px",
+                marginRight: "10px",
               }}
             />
             <div
