@@ -32,7 +32,11 @@ function ListItem({ list }) {
                 marginRight: "15px",
               }}
             />
-            <div>
+            <div
+              style={{
+                width: "200px",
+              }}
+            >
               <div className="listitem-number">{list.from}</div>
               <div className="listitem-description">
                 tried to call on {list.to}
