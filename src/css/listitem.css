@@ -1,0 +1,49 @@
+.listitem-date {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  align-items: center;
+  color: gray;
+  font-size: 12px;
+  margin: 15px 0px;
+}
+.listitem-date::before,
+.listitem-date::after {
+  content: "";
+  flex-grow: 1;
+  border: 1px dotted lightgray;
+  margin: 0px 5px;
+}
+.listitem-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listitem-box {
+  width: 90%;
+  height: 60px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listitem-call {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listitem-number {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.listitem-description {
+  color: gray;
+  font-size: 12px;
+}
+.listitem-time {
+  display: flex;
+  align-items: center;
+  color: gray;
+}

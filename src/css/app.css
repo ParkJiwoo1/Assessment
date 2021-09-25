@@ -16,10 +16,30 @@
 
   background: white;
   border-radius: 3px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
 }
-
-#app .container-view {
+#app .archive-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#app .archive-box {
+  align-items: center;
+  display: flex;
   padding: 20px;
+  width: 80%;
+  height: 20px;
+  border-width: 10px;
+  border: 1px solid lightgray;
+  border-top: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
-
+#app .archive-button {
+  margin-left: 10px;
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  color: dimgray;
+  font-weight: 600;
+}

@@ -1,0 +1,32 @@
+.detail-container {
+  display: flex;
+  justify-content: center;
+}
+.detail-box {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 421px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.detail-infobox {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 200px;
+  width: 80%;
+  padding: 20px;
+}
+.detail-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.detail-date {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.detail-text {
+  margin-bottom: 20px;
+}
